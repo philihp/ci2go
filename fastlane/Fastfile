@@ -87,6 +87,16 @@ platform :ios do
 
   desc 'Deploy a new version to S3'
   lane :deploy_s3 do
+    unlock_keychain
+    gym(
+      scheme: APP_NAME,
+      codesigning_identity: ENV['DEVELOPER_NAME'],
+      use_legacy_build_api: true,
+      configuration: 'Release',
+      clean: false,
+      output_directory: "Build",
+      archive_path: "Build/#{APP_NAME}.xcarchive"
+    )
     ipa = "Build/#{APP_NAME}.ipa"
     resign(
       ipa: ipa,
@@ -120,6 +130,16 @@ platform :ios do
 
   desc 'Submit a new Beta Build to Apple TestFlight'
   lane :deploy_testflight do
+    unlock_keychain
+    gym(
+      scheme: APP_NAME,
+      codesigning_identity: ENV['DEVELOPER_NAME'],
+      use_legacy_build_api: false,
+      configuration: 'Release',
+      clean: false,
+      output_directory: "Build",
+      archive_path: "Build/#{APP_NAME}.xcarchive"
+    )
     ipa = "Build/#{APP_NAME}.ipa"
     resign(
       ipa: ipa,

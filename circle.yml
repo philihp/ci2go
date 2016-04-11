@@ -39,12 +39,10 @@ deployment:
   master:
     branch: /master|publish\-.+/
     commands:
-      - bundle exec fastlane build
       - bundle exec fastlane deploy_testflight
       - bundle exec deliver run --skip_screenshots --force
       - bundle exec deliver run --skip_metadata --force
   preview:
     branch: /.*/
     commands:
-      - bundle exec fastlane build
       - bundle exec fastlane deploy_s3 > /dev/null 2>&1
