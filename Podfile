@@ -6,6 +6,7 @@ target 'CI2Go' do
   platform :ios, '9.0'
   pod 'AlamofireObjectMapper', '~> 2.1'
   pod 'BigBrother', '~> 0.3.0'
+  pod 'Bugsee'
   pod 'Carlos', '~> 0.5'
   pod 'Crashlytics'
   pod 'DateTools', '~> 1.7'

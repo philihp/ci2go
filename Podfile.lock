@@ -4,6 +4,7 @@ PODS:
     - Alamofire (~> 3.1.0)
     - ObjectMapper (~> 1.0)
   - BigBrother (0.3.0)
+  - Bugsee (1.6.0)
   - Carlos (0.6)
   - Crashlytics (3.6.0):
     - Fabric (~> 1.6.3)
@@ -53,6 +54,7 @@ PODS:
 DEPENDENCIES:
   - AlamofireObjectMapper (~> 2.1)
   - BigBrother (~> 0.3.0)
+  - Bugsee
   - Carlos (~> 0.5)
   - Crashlytics
   - DateTools (~> 1.7)
@@ -75,6 +77,7 @@ SPEC CHECKSUMS:
   Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
   AlamofireObjectMapper: 24097576202064f8b0a583452dd934064f78dc0e
   BigBrother: e3cdf5f22636c7b7e92ec4e3615e58cb58681125
+  Bugsee: 02af6b2ce1856db750110caec7bf2eaba4bdf1e9
   Carlos: e047302297d76c181baf41e65c770967b0e2c484
   Crashlytics: e4e8d02914f2608fbc7bf42b1a7af838b0db67a2
   CryptoSwift: b2bf37b8e7cc6d682ef3365cb966bc5ae5174aa5

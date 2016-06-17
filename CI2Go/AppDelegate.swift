@@ -66,6 +66,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         }
         setupRealm()
         watchMessageHandler.activate()
+        Bugsee.launchWithToken("c5ae0959-053b-47a4-aa93-8b49ab4c0fee")
         
         // Google Analytics
         let gai = GAI.sharedInstance()

@@ -10,4 +10,5 @@
 #import <GoogleAnalytics/GAIFields.h>
 #import <GoogleAnalytics/GAILogger.h>
 #import <GoogleAnalytics/GAIDictionaryBuilder.h>
+#import <Bugsee/Bugsee.h>
 #import "AMR_ANSIEscapeHelper.h"
