@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0910"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "856701881C3015F500E76DCF"
+               BlueprintIdentifier = "85A155131FBB5AAE0046ADD4"
                BuildableName = "CI2Go.app"
                BlueprintName = "CI2Go"
                ReferencedContainer = "container:CI2Go.xcodeproj">
@@ -26,13 +26,14 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "NO">
+      language = ""
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8534A3EB1C33D84100CF0BA8"
+               BlueprintIdentifier = "85A1552A1FBB5AAE0046ADD4"
                BuildableName = "CI2GoTests.xctest"
                BlueprintName = "CI2GoTests"
                ReferencedContainer = "container:CI2Go.xcodeproj">
@@ -42,7 +43,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "85D0725B1C4305F40079C572"
+               BlueprintIdentifier = "85A155351FBB5AAE0046ADD4"
                BuildableName = "CI2GoUITests.xctest"
                BlueprintName = "CI2GoUITests"
                ReferencedContainer = "container:CI2Go.xcodeproj">
@@ -52,29 +53,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "856701881C3015F500E76DCF"
+            BlueprintIdentifier = "85A155131FBB5AAE0046ADD4"
             BuildableName = "CI2Go.app"
             BlueprintName = "CI2Go"
             ReferencedContainer = "container:CI2Go.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "TEST"
-            value = "1"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "VERBOSE"
-            value = "1"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "REALM_MEMORY_IDENTIFIER"
-            value = "TestInMemoryRealm"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -82,6 +66,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -92,19 +77,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "856701881C3015F500E76DCF"
+            BlueprintIdentifier = "85A155131FBB5AAE0046ADD4"
             BuildableName = "CI2Go.app"
             BlueprintName = "CI2Go"
             ReferencedContainer = "container:CI2Go.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "VERBOSE"
-            value = "1"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -118,7 +96,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "856701881C3015F500E76DCF"
+            BlueprintIdentifier = "85A155131FBB5AAE0046ADD4"
             BuildableName = "CI2Go.app"
             BlueprintName = "CI2Go"
             ReferencedContainer = "container:CI2Go.xcodeproj">

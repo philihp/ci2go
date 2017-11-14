@@ -29,6 +29,7 @@ CI2Go/Environment.swift
 Distribution
 fastlane/profiles/*.mobileprovision
 fastlane/report.xml
+fastlane/test_output/
 `*.swp
 .bundle
 vendor

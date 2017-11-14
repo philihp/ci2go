@@ -1,1 +1,10 @@
-app_identifier "com.ci2go.ios.Circle" 
+###################### More Options ######################
+# If you want to have even more control, check out the documentation
+# https://docs.fastlane.tools/actions/deliver
+
+
+###################### Automatically generated ######################
+# Feel free to remove the following line if you use fastlane (which you should)
+
+app_identifier "com.ci2go.ios.Circle" # The bundle identifier of your app
+username "circleci@ngs.io" # your Apple ID user
