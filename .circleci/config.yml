@@ -6,13 +6,24 @@ jobs:
 
     steps:
       - checkout
+      - restore_cache:
+          name: Restore CocoaPods Cache
+          key: ci2go-cocoapods-{{ checksum "Podfile.lock" }}
+
       - run:
           name: Fetch CocoaPods Specs
           command: |
             curl https://cocoapods-specs.circleci.com/fetch-cocoapods-repo-from-s3.sh | bash -s cf
+
       - run:
           name: Install CocoaPods
           command: pod install --verbose
+
+      - save_cache:
+          name: Store CocoaPods Cache
+          key: ci2go-cocoapods-{{ checksum "Podfile.lock" }}
+          paths:
+            - Pods
 
       - run:
           name: Build and run tests
